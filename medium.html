@@ -16,6 +16,11 @@
 }
 
 .medium-link {
+  text-decoration-line: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.medium-stories-heading-trailing {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: .3px;
@@ -54,8 +59,8 @@
 }
 </style>
 </head>
-<div id="medium-stories">
-<div class="medium-stories-heading">Stories by <a class="medium-link" href="https://medium.com/@weakreference">@weakreference</a></div>
+<div class="medium-stories">
+<div class="medium-stories-heading">Stories <span class="medium-stories-heading-trailing">by <a class="medium-link" href="https://medium.com/@weakreference">@weakreference</a></span></div>
 <div id="medium-widget"></div>
 </div>
 <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
